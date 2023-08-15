@@ -1,4 +1,5 @@
-﻿using ClinicaOdontologica.Telas;
+﻿using ClinicaOdontologica.Entidades;
+using ClinicaOdontologica.Telas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,13 @@ namespace ClinicaOdontologica
 
         private void bt_agendar_Click(object sender, EventArgs e)
         {
+            Cadastro a = new Cadastro();
+
+            a.Nome = tx_nome.Text;
+            a.Email = tx_email.Text;
+            a.Telefone = tx_telefone.Text;
+            
+
             Tratamento tratamento = new Tratamento();
             tratamento.Show();
         }

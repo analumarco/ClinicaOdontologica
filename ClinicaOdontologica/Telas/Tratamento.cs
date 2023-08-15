@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClinicaOdontologica.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,12 +13,23 @@ namespace ClinicaOdontologica.Telas
 {
     public partial class Tratamento : Form
     {
+
         public Tratamento()
         {
             InitializeComponent();
         }
 
         private void cb_tratameto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
