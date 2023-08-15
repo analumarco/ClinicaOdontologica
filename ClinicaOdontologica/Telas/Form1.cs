@@ -14,6 +14,7 @@ namespace ClinicaOdontologica
 {
     public partial class Form1 : Form
     {
+        List<string> clientes = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -24,17 +25,17 @@ namespace ClinicaOdontologica
 
         }
 
-        private void bt_agendar_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Cadastro a = new Cadastro();
 
-            a.Nome = tx_nome.Text;
-            a.Email = tx_email.Text;
-            a.Telefone = tx_telefone.Text;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
             
-
-            Tratamento tratamento = new Tratamento();
-            tratamento.Show();
+            
+            
+            MessageBox.Show("Cadastro Realizado!");
+            this.Close();
         }
     }
 }

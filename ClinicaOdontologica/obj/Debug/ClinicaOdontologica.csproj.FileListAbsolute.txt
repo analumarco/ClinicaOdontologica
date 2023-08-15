@@ -10,3 +10,4 @@ C:\Users\2022102020057\source\repos\ClinicaOdontologica\ClinicaOdontologica\obj\
 C:\Users\2022102020057\source\repos\ClinicaOdontologica\ClinicaOdontologica\obj\Debug\ClinicaOdontologica.csproj.CoreCompileInputs.cache
 C:\Users\2022102020057\source\repos\ClinicaOdontologica\ClinicaOdontologica\obj\Debug\ClinicaOdontologica.exe
 C:\Users\2022102020057\source\repos\ClinicaOdontologica\ClinicaOdontologica\obj\Debug\ClinicaOdontologica.pdb
+C:\Users\2022102020057\source\repos\ClinicaOdontologica\ClinicaOdontologica\obj\Debug\ClinicaOdontologica.Telas.Menu.resources
