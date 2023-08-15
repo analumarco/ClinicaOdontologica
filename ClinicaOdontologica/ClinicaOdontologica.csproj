@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\Cadastro.cs" />
-    <Compile Include="Entidades\Cidade.cs" />
     <Compile Include="Telas\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
