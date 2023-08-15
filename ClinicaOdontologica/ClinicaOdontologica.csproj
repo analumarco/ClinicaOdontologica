@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Cadastro.cs" />
-    <Compile Include="Telas\Form1.cs">
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Telas\CadastrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Telas\CadastrarCliente.Designer.cs">
+      <DependentUpon>CadastrarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,14 +61,14 @@
     <Compile Include="Telas\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\Tratamento.cs">
+    <Compile Include="Telas\Agendamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\Tratamento.Designer.cs">
-      <DependentUpon>Tratamento.cs</DependentUpon>
+    <Compile Include="Telas\Agendamento.Designer.cs">
+      <DependentUpon>Agendamento.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Telas\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Telas\CadastrarCliente.resx">
+      <DependentUpon>CadastrarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,8 +82,8 @@
     <EmbeddedResource Include="Telas\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\Tratamento.resx">
-      <DependentUpon>Tratamento.cs</DependentUpon>
+    <EmbeddedResource Include="Telas\Agendamento.resx">
+      <DependentUpon>Agendamento.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

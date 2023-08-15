@@ -1,4 +1,5 @@
 ﻿using ClinicaOdontologica.Entidades;
+using ClinicaOdontologica.Telas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,10 +12,10 @@ using System.Windows.Forms;
 
 namespace ClinicaOdontologica.Telas
 {
-    public partial class Tratamento : Form
+    public partial class Agendamento : Form
     {
 
-        public Tratamento()
+        public Agendamento()
         {
             InitializeComponent();
         }
@@ -41,7 +42,7 @@ namespace ClinicaOdontologica.Telas
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+              
         }
     }
 }

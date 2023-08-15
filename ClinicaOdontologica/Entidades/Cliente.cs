@@ -7,28 +7,24 @@ using System.Threading.Tasks;
 
 namespace ClinicaOdontologica.Entidades
 {
-    internal class Cadastro
+    internal class Cliente
     {
         public string Nome { get; set; }    
         public string Email { get; set; }
         public string Telefone { get; set; }
-        public string Estado { get; set; }
         public string Cidade { get; set; }
-        public string Unidade { get; set; }
 
-        public Cadastro()
+        public Cliente()
         {
 
         }
 
-        public Cadastro(string nome, string email, string telefone, string estado, string cidade, string unidade)
+        public Cliente(string nome, string email, string telefone, string cidade)
         {
             this.Nome = nome;
             this.Email = email;
             this.Telefone = telefone;
-            this.Estado = estado;
             this.Cidade = cidade;
-            this.Unidade = unidade;
         }
     }
 }

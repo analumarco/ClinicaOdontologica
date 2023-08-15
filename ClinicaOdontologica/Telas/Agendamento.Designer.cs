@@ -1,6 +1,6 @@
 ﻿namespace ClinicaOdontologica.Telas
 {
-    partial class Tratamento
+    partial class Agendamento
     {
         /// <summary>
         /// Required designer variable.

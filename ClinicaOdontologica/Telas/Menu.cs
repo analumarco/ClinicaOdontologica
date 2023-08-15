@@ -25,7 +25,7 @@ namespace ClinicaOdontologica.Telas
 
         private void bt_agendar_Click(object sender, EventArgs e)
         {
-            Tratamento tratamento = new Tratamento();
+            Agendamento tratamento = new Agendamento();
             tratamento.ShowDialog();
         }
     }
